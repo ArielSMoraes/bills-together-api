@@ -1,0 +1,22 @@
+{
+  "name": "bills-together-api",
+  "version": "1.0.0",
+  "description": "Api Rest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArielSMoraes/bills-together-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArielSMoraes/bills-together-api/issues"
+  },
+  "homepage": "https://github.com/ArielSMoraes/bills-together-api#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
