@@ -1,8 +1,12 @@
 var app = require('express')();
-var handler = require('./routes/users');
+var user = require('./routes/users');
+var bills = require('./routes/bills');
 
-app.get("/users", handler.getUsers);
-app.get("/user/:id", handler.getUser);
+app.get("/users", user.getUsers);
+app.get("/user/:id", user.getUser);
+
+app.get("/bills", bills.getBills);
+app.get("/bill/:id", bills.getBill);
 
 app.listen(3000);
 

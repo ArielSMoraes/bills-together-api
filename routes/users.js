@@ -1,7 +1,7 @@
 var users = [
-    {nome: 'João Amado', id: 1},
-    {nome: 'Jorge Piaia', id: 2},
-    {nome: 'Jessica Franke', id: 3}
+    {name: 'João Amado', id: 1},
+    {name: 'Jorge Piaia', id: 2},
+    {name: 'Jessica Franke', id: 3}
   ];
 
 exports.getUsers = function(req, res) {
